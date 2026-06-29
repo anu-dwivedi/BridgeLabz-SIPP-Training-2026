@@ -1,0 +1,1 @@
+import java.util.*; public class CharacterTypeTable{public static void main(String[] a){Scanner sc=new Scanner(System.in);String s=sc.nextLine();for(char ch:s.toCharArray()){char c=Character.toLowerCase(ch);String t="Not a Letter";if(c>='a'&&c<='z')t=("aeiou".indexOf(c)>=0)?"Vowel":"Consonant";System.out.println(ch+" -> "+t);}}}

@@ -1,0 +1,1 @@
+import java.util.*; public class StudentGradeCard{public static void main(String[] a){Scanner sc=new Scanner(System.in);int n=sc.nextInt();for(int i=0;i<n;i++){int p=sc.nextInt(),c=sc.nextInt(),m=sc.nextInt();double per=(p+c+m)/3.0;String g=per>=90?"A+":per>=75?"A":per>=60?"B":per>=40?"C":"F";System.out.println(per+" "+g);}}}
