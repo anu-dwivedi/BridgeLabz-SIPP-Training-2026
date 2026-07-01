@@ -1,0 +1,1 @@
+import java.util.*; public class ShortestLongestWord{public static void main(String[] a){Scanner sc=new Scanner(System.in);String[] w=sc.nextLine().split(" ");String s=w[0],l=w[0];for(String x:w){if(x.length()<s.length())s=x;if(x.length()>l.length())l=x;}System.out.println("Shortest: "+s);System.out.println("Longest: "+l);}}

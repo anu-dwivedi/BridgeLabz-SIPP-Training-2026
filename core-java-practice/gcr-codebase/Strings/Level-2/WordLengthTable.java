@@ -1,0 +1,1 @@
+import java.util.*; public class WordLengthTable{public static void main(String[] a){Scanner sc=new Scanner(System.in);String[] w=sc.nextLine().split(" ");System.out.println("Word\tLength");for(String x:w)System.out.println(x+"\t"+x.length());}}

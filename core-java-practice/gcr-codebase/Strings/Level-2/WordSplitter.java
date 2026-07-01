@@ -1,0 +1,1 @@
+import java.util.*; public class WordSplitter{public static void main(String[] a){Scanner sc=new Scanner(System.in);String t=sc.nextLine();String[] w=t.trim().split("\\s+");for(String x:w)System.out.println(x);}}
